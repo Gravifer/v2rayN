@@ -255,8 +255,8 @@
   <data name="MsgPACUpdateSuccessfully" xml:space="preserve">
     <value>PAC update succeeded</value>
   </data>
-  <data name="MsgParsingV2rayCoreSuccessfully" xml:space="preserve">
-    <value>Resolve V2ray successfully</value>
+  <data name="MsgParsingSuccessfully" xml:space="preserve">
+    <value>Resolve {0} successfully</value>
   </data>
   <data name="MsgSimplifyPAC" xml:space="preserve">
     <value>Simplify PAC Success</value>
@@ -360,5 +360,29 @@
   </data>
   <data name="TestMeOutput" xml:space="preserve">
     <value>The ping of current service: {0}</value>
+  </data>
+  <data name="OperationSuccess" xml:space="preserve">
+    <value>Operation success</value>
+  </data>
+  <data name="PleaseSelectRules" xml:space="preserve">
+    <value>Please select rules</value>
+  </data>
+  <data name="RemoveRules" xml:space="preserve">
+    <value>Are you sure to remove the rules?</value>
+  </data>
+  <data name="RoutingRuleDetailRequiredTips" xml:space="preserve">
+    <value>{0},One of the required.</value>
+  </data>
+  <data name="LvRemarks" xml:space="preserve">
+    <value>remarks</value>
+  </data>
+  <data name="LvUrl" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="LvCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="MsgNeedUrl" xml:space="preserve">
+    <value>Please fill in the address (Url)</value>
   </data>
 </root>

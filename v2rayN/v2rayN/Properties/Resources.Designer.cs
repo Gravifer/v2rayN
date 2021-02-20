@@ -71,16 +71,6 @@ namespace v2rayN.Properties {
         }
         
         /// <summary>
-        ///   查找 System.Byte[] 类型的本地化资源。
-        /// </summary>
-        internal static byte[] abp_js {
-            get {
-                object obj = ResourceManager.GetObject("abp_js", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
         internal static System.Drawing.Bitmap checkupdate {
@@ -133,33 +123,6 @@ namespace v2rayN.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
-        internal static byte[] pac_txt {
-            get {
-                object obj = ResourceManager.GetObject("pac_txt", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 listen-address __PRIVOXY_BIND_IP__:__PRIVOXY_BIND_PORT__
-        ///toggle 0
-        ///logfile v2ray_privoxy.log
-        ///show-on-task-bar 0
-        ///activity-animation 0
-        ///forward-socks5 / 127.0.0.1:__SOCKS_PORT__ .
-        ///max-client-connections 2048
-        ///hide-console
-        /// 的本地化字符串。
-        /// </summary>
-        internal static string privoxy_conf {
-            get {
-                return ResourceManager.GetString("privoxy_conf", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Byte[] 类型的本地化资源。
-        /// </summary>
         internal static byte[] privoxy_exe {
             get {
                 object obj = ResourceManager.GetObject("privoxy_exe", resourceCulture);
@@ -193,6 +156,16 @@ namespace v2rayN.Properties {
         internal static System.Drawing.Bitmap server {
             get {
                 object obj = ResourceManager.GetObject("server", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap share {
+            get {
+                object obj = ResourceManager.GetObject("share", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
